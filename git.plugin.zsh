@@ -9,7 +9,7 @@ alias g='git'
 # ga . ; ga xxx
 alias ga='git add'
 
-# gb ; gb dev; gb -r
+# gb ; gb xxx; gb -r ; gb -d xxxx
 alias gb='git branch'
 
 # gc 'commit message'
@@ -25,7 +25,7 @@ alias gl='git pull'
 alias glog='git log --oneline --decorate --graph --all'
 
 # gm xxx ; gm --no-ff xxx 
-alias gm='git merge'
+alias gm='git merge --no-ff --squash'
 
 alias gp='git push'
 
